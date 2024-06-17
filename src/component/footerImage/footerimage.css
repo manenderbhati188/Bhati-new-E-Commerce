@@ -8,3 +8,13 @@
     object-fit: cover;
     
 }
+@media screen and (max-width:480px) {
+    .footer_image img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 37px;
+    }
+    
+    
+}

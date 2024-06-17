@@ -22,3 +22,11 @@
         height: 100px;
     }
 }
+@media screen and (max-width:480px) {
+    .hero img{
+        height: 100px;
+    }   
+    .crazy_deal img{
+        height: 50px;
+    }
+}

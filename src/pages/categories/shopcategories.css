@@ -41,3 +41,27 @@
         left: 50px;
     }
   }
+
+  @media screen and (max-width: 480px) {
+    .shopcategories-banner img{
+        height:100px;
+    }
+    .shop-items{
+        margin-top:60px;    
+        position:absolute;
+        left: 20px;
+        gap: 20px;
+    }
+    .select-option{
+    width: 50px;
+    font-size: 10px;
+    
+    }
+    .sort-options{
+        font-size: 10px;
+        right: 30px;
+    }
+    .sort-options option{
+        font-size: 10px;
+    }
+  }

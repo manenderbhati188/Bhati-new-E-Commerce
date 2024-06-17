@@ -66,7 +66,7 @@ const Shopcategories = (props) => {
 
       <div className='sort-options'>
         <label htmlFor='sort-select'>Sort by: </label>
-        <select value={sortBy} onChange={handleSortChange}>
+        <select value={sortBy} onChange={handleSortChange} className='select-option'>
           <option value='nameAsc'>Name A-Z</option>
           <option value='nameDesc'>Name Z-A</option>
           <option value='sizeAsc'>Size Low to High</option>

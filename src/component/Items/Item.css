@@ -41,24 +41,28 @@
   }
   @media screen and (max-width: 480px) {
     .items img{
-        height:180px;
-        width: 150px;
-    }
-    .items{
-        height: 250px;
-        width: 200px;
-        display: flex;
+        height:120px;
+        width: 120px;
     }
     .item-price-new{
         font-size:13px;
         font-weight:400;
     }
     .items p{
-        font-size: 13px;
+        font-size: 12px;
     }
     .item-price-old{
         font-size: 13px;
         font-weight: 400;
     }
+    .items {
+        height: 145px;
+        width: 140px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    
+    
     
 }
