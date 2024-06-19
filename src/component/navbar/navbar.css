@@ -70,6 +70,7 @@
   @media screen and (max-width: 480px) {
     .navbar {
         height: 6vh;
+        width: 100%;
     }
     
     .navbar-logo img {

@@ -45,25 +45,31 @@
   @media screen and (max-width: 480px) {
     .items img{
         height:120px;
-        width: 120px;
+        width: 100%;
+        object-fit: caintain;
     }
+
     .item-price-new{
         font-size:13px;
         font-weight:400;
     }
+
     .items p{
         font-size: 12px;
+        height: 15px;
+        overflow: hidden;
     }
+
     .item-price-old{
         font-size: 13px;
         font-weight: 400;
     }
-    .items {
-        height: 145px;
-        width: 140px;
-        display: flex;
-        flex-direction: column;
-        margin: 10px;
+
+    .items{
+        height:200px;
+        width:150px;
+        flex-wrap: nowrap;
+        overflow: hidden;
     }
     
     

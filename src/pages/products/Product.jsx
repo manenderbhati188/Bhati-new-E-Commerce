@@ -1,5 +1,4 @@
 import React from 'react'
-import './product.css'
 import ProductDisplay from '../../component/productdisplay/ProductDisplay'
 import { useParams } from 'react-router-dom';
 import all_product from '../../assests/showall_data'
