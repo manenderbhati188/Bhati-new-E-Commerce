@@ -8,6 +8,7 @@ import trend from './assests/Catebanner/trendingimage.jpg'
 import womenbanner from './assests/Catebanner/womenbanner.jpg'
 import fashion from './assests/Catebanner/fashion.jpg'
 import Shopcategories from './pages/categories/Shopcategories';
+import Product  from './pages/products/Product'
 import Login from './pages/login/Login';
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/trend' element={<Shopcategories category="trend" image={trend}/>}/>
       <Route path='/fashion' element={<Shopcategories category="fashion" image={fashion}/>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/product/:productid' element={<Product/>}/>
       </Routes>
       </BrowserRouter>
     </div>
